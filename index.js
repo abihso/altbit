@@ -59,7 +59,7 @@ app.post(
       const saveStudent = await student.save();
         if (!saveStudent)
         {
-            throw new Error("Error ma nigga");
+            throw new Error("Error ma boss");
         } else { 
             return res.json({ msg: "OKAY" });
             
